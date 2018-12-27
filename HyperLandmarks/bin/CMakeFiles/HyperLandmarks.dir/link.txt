@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libHyperLandmarks.a  CMakeFiles/HyperLandmarks.dir/HyperLandmarksUtils.cpp.o CMakeFiles/HyperLandmarks.dir/LandmarkDetector.cpp.o CMakeFiles/HyperLandmarks.dir/src/feature_descriptor.cpp.o CMakeFiles/HyperLandmarks.dir/src/helper.cpp.o CMakeFiles/HyperLandmarks.dir/src/hog.c.o CMakeFiles/HyperLandmarks.dir/src/ldmarkmodel.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libHyperLandmarks.a
