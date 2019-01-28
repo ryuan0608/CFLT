@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libCLM.a  CMakeFiles/CLM.dir/src/CCNF_patch_expert.cpp.o CMakeFiles/CLM.dir/src/CLM_utils.cpp.o CMakeFiles/CLM.dir/src/CLM.cpp.o CMakeFiles/CLM.dir/src/CLMParameters.cpp.o CMakeFiles/CLM.dir/src/LandmarkMapper.cpp.o CMakeFiles/CLM.dir/src/PatchExperts.cpp.o CMakeFiles/CLM.dir/src/PDM.cpp.o CMakeFiles/CLM.dir/src/SVR_patch_expert.cpp.o CMakeFiles/CLM.dir/src/LandmarkLocaliser.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libCLM.a
