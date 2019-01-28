@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../HyperLandmarks/src/include/hog.h
+math.h
+-
+
+/Users/orangechicken/Documents/Developer/CFLT/HyperLandmarks/src/hog.c
+string.h
+-
+assert.h
+-
+stdlib.h
+-
+hog.h
+/Users/orangechicken/Documents/Developer/CFLT/HyperLandmarks/src/hog.h
+
