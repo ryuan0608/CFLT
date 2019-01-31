@@ -1,8 +1,9 @@
 # CLM-based Facial Landmark Tracker (CFLT)
 This is a facial landmark tracker dependent on [SDM](https://github.com/zeusees/HyperLandmark) and [CLM](https://github.com/TadasBaltrusaitis/OpenFace). Primarily it is supposed to be part of VIP ARSDK and serves as a facial landmark refinement upon MTCNN detection result. However I includ a simple open-source SDM implementation here only to make it a somewhat complete stand-alone module. 
 
-## 1. Overview What?
-CFLT consists of two major modules with one's result feeding into the other as input. Here SDM gives an intial esimate of 68 landmarks when tracking is not available. Have the estimate given, CLM computes a higher resolution result as well as a track over frames. After an interval of time, or whenever a track is not sufficiently accurate, SDM comes in again to reinitialize.  
+## 1. Overview Test
+CLM-based Facial Landmark Tracker consists of two major modules with one's result feeding into the other as input. Here SDM gives an intial esimate of 68 landmarks when tracking is not available. Have the estimate given, CLM computes a higher resolution result as well as a track over frames. After an interval of time, or whenever a track is not sufficiently accurate, SDM comes in again to reinitialize.  
+>>>>>>> 92a925c2560ee468f454141fe9f64111ed69343e
 
 ## 2. How to run the code?
 A CMake file is available under the root directory. Make sure you have OpenCV>=3.2 installed and you are good.  
